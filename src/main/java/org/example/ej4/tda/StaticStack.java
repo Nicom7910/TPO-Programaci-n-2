@@ -1,5 +1,4 @@
-package ej4.tda;
-
+package org.example.ej4.tda;
 public class StaticStack implements Stack {
 
 

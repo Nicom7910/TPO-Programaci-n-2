@@ -1,6 +1,7 @@
-package ej2.utils;
+package org.example.ej2.utils;
 
-import ej2.tda.StaticSet;
+
+import org.example.ej2.tda.StaticSet;
 
 public class SetUtil {
 

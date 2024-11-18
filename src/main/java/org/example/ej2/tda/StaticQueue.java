@@ -1,4 +1,4 @@
-package ej2.tda;
+package org.example.ej2.tda;
 
 public class StaticQueue<T> implements Queue<T> {
 
@@ -17,7 +17,7 @@ public class StaticQueue<T> implements Queue<T> {
         if (isEmpty()) {
             throw new RuntimeException("No se puede obtener el primero de una cola vacía");
         }
-        return (T) array[0]; // Cast a T
+        return (T) array[0];
     }
 
     @Override
