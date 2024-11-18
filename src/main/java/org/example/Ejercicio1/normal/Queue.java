@@ -1,7 +1,7 @@
-package Ejercicio1.normal;
+package org.example.Ejercicio1.normal;
 
 
-import Ejercicio1.definition.IQueue;
+import org.example.Ejercicio1.definition.IQueue;
 
 public class Queue implements IQueue {
 

@@ -1,7 +1,8 @@
-package Ejercicio1.tests;
+package org.example.Ejercicio1.tests;
 
-import Ejercicio1.normal.QueueOfStacks;
-import Ejercicio1.normal.Stack;
+
+import org.example.Ejercicio1.normal.QueueOfStacks;
+import org.example.Ejercicio1.normal.Stack;
 
 public class QueueOfStacksTest {
 

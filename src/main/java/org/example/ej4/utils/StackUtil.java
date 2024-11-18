@@ -1,7 +1,7 @@
-package ej4.utils;
+package org.example.ej4.utils;
 
-import ej4.tda.Stack;
-import ej4.tda.StaticStack;
+import org.example.ej4.tda.Stack;
+import org.example.ej4.tda.StaticStack;
 
 public class StackUtil {
 

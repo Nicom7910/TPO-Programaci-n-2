@@ -1,4 +1,4 @@
-package ejercicio6.ejercicio6.ej6a.TDA;
+package org.example.ejercicio6.ej6a.TDA;
 
 public class DynamicLimitedStack extends DynamicStack {
     private int maxCapacity;  // Capacidad máxima de la pila

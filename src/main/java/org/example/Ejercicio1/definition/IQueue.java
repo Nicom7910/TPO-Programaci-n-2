@@ -1,4 +1,4 @@
-package Ejercicio1.definition;
+package org.example.Ejercicio1.definition;
 
 
 /**

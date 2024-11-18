@@ -1,8 +1,7 @@
-package ej4.utils;
+package org.example.ej4.utils;
 
-import ej4.tda.Queue;
-import ej4.tda.StaticQueue;
-import ej4.tda.*;
+import org.example.ej4.tda.Queue;
+import org.example.ej4.tda.StaticQueue;
 
 public class QueueUtil {
 

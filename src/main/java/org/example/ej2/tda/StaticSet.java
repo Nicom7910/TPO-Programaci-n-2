@@ -1,4 +1,4 @@
-package ej2.tda;
+package org.example.ej2.tda;
 import java.util.Random;
 
 public class StaticSet<T> implements Set<T> {

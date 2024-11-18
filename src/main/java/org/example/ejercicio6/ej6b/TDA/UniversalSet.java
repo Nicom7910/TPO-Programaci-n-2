@@ -1,4 +1,4 @@
-package ejercicio6.ejercicio6.ej6b.TDA;
+package org.example.ejercicio6.ej6b.TDA;
 import java.util.HashSet;
 
 public class UniversalSet implements Set {
@@ -6,7 +6,7 @@ public class UniversalSet implements Set {
     public HashSet<Integer> universalSet; // Representa el superconjunto
 
     // Constructor que inicializa el superconjunto con un conjunto de valores
-    public void UniversalSet() {
+    public UniversalSet() {
         this.universalSet = new HashSet<>();
     }
 

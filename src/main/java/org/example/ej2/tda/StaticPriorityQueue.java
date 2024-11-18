@@ -1,6 +1,5 @@
-package ej2.tda;
+package org.example.ej2.tda;
 
-import ej2.tda.*;
 
 public class StaticPriorityQueue<T> implements PriorityQueue<T> {
 

@@ -1,4 +1,4 @@
-package Ejercicio1.normal.node;
+package org.example.Ejercicio1.normal.node;
 
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-package Ejercicio1.definition;
+package org.example.Ejercicio1.definition;
 
 /**
  * Precondicion: para usar cualquier de estos metodos la estructura debe estar inicializada.

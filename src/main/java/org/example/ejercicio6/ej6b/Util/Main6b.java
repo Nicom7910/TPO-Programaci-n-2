@@ -1,5 +1,6 @@
-package ejercicio6.ejercicio6.ej6b.Util;
-import ejercicio6.ejercicio6.ej6b.TDA.UniversalSet;
+package org.example.ejercicio6.ej6b.Util;
+
+import org.example.ejercicio6.ej6b.TDA.UniversalSet;
 
 public class Main6b {
     public static void main(String[] args) {

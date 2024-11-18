@@ -1,4 +1,4 @@
-package ej2.tda;
+package org.example.ej2.tda;
 
 public class StaticQueue<T> implements Queue<T> {
 

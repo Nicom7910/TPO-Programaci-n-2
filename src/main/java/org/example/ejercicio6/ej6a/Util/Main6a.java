@@ -1,5 +1,6 @@
-package ejercicio6.ejercicio6.ej6a.Util;
-import ejercicio6.ejercicio6.ej6a.TDA.DynamicLimitedStack;
+package org.example.ejercicio6.ej6a.Util;
+
+import org.example.ejercicio6.ej6a.TDA.DynamicLimitedStack;
 
 public class Main6a {
     public static void main(String[] args) {

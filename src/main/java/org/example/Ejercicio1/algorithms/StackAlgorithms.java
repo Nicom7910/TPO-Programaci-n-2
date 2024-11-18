@@ -1,7 +1,7 @@
-package Ejercicio1.algorithms;
+package org.example.Ejercicio1.algorithms;
 
-import Ejercicio1.definition.IStack;
-import Ejercicio1.normal.Stack;
+import org.example.Ejercicio1.definition.IStack;
+import org.example.Ejercicio1.normal.Stack;
 
 public class StackAlgorithms {
 

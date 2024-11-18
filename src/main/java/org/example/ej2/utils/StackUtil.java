@@ -1,6 +1,7 @@
-package ej2.utils;
+package org.example.ej2.utils;
 
-import ej2.tda.*;
+
+import org.example.ej2.tda.StaticStack;
 
 public class StackUtil {
     public static <T> void reverseStack(StaticStack<T> stack) {

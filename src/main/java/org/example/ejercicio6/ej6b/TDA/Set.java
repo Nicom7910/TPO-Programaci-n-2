@@ -1,4 +1,4 @@
-package ejercicio6.ejercicio6.ej6b.TDA;
+package org.example.ejercicio6.ej6b.TDA;
 
 public interface Set {
 

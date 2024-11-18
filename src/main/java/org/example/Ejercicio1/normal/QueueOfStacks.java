@@ -1,7 +1,8 @@
-package Ejercicio1.normal;
+package org.example.Ejercicio1.normal;
 
-import Ejercicio1.definition.IQueue;
-import Ejercicio1.definition.IStack;
+
+import org.example.Ejercicio1.definition.IQueue;
+import org.example.Ejercicio1.definition.IStack;
 
 public class QueueOfStacks {
 
