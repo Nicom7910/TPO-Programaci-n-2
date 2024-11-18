@@ -1,4 +1,4 @@
-package ej5Parte1.tda;
+package org.example.ej5Parte1.tda;
 
 public interface Stack {
 

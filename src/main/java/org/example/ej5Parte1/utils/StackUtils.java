@@ -1,6 +1,6 @@
-package ej5Parte1.utils;
+package org.example.ej5Parte1.utils;
 
-import ej5Parte1.tda.*;
+import org.example.ej5Parte1.tda.*;
 
 public class StackUtils {
     public static StaticStack generarStackOrdenadoYFiltrado(StaticStack inputStack) {
