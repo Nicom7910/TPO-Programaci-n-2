@@ -32,7 +32,7 @@ public class StaticSet<T> implements Set<T> {
             throw new RuntimeException("No se puede elegir un elemento de un conjunto vacío");
         }
         int i = random.nextInt(count);
-        return (T) this.array[i]; // Cast a T
+        return (T) this.array[i];
     }
 
     @Override

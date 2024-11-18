@@ -1,6 +1,5 @@
 package org.example.ej2.utils;
 
-
 import org.example.ej2.tda.StaticStack;
 
 public class StackUtil {

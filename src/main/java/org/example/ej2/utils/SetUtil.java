@@ -1,5 +1,6 @@
 package org.example.ej2.utils;
 
+
 import org.example.ej2.tda.StaticSet;
 
 public class SetUtil {

@@ -1,5 +1,4 @@
 package org.example.ej4.tda;
-
 public class StaticStack implements Stack {
 
 

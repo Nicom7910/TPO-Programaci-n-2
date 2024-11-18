@@ -1,7 +1,6 @@
 package org.example.ej4.utils;
 
-import org.example.ej4.tda.Set;
-import org.example.ej4.tda.StaticSet;
+import org.example.ej4.tda.*;
 
 public class SetUtil {
 

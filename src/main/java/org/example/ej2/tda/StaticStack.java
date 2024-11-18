@@ -17,7 +17,7 @@ public class StaticStack<T> implements Stack<T> {
         if (isEmpty()) {
             throw new RuntimeException("No se puede obtener el tope de una pila vacía");
         }
-        return (T) array[this.count - 1]; // Cast a T
+        return (T) array[this.count - 1];
     }
 
     @Override

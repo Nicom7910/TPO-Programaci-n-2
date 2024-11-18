@@ -20,7 +20,7 @@ public class StaticPriorityQueue<T> implements PriorityQueue<T> {
         if (isEmpty()) {
             throw new RuntimeException("No se puede obtener el primero de una cola vacía");
         }
-        return (T) values[0]; // Cast a T
+        return (T) values[0];
     }
 
     @Override
