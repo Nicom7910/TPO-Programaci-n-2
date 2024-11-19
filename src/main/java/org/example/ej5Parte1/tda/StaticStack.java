@@ -13,28 +13,28 @@ public class StaticStack implements Stack {
     }
 
     @Override
-    public int getTop() {
-        if(isEmpty()) {
-            throw new RuntimeException("No se puede obtener el tope una pila vacia");
+    public int getTop() {//O(c)
+        if(isEmpty()) { //O(c)
+            throw new RuntimeException("No se puede obtener el tope una pila vacia");//O(c)
         }
-        return array[this.count - 1];
+        return array[this.count - 1]; //O(c)
     }
 
     @Override
-    public void remove() {
-        if(isEmpty()) {
-            throw new RuntimeException("No se puede obtener el tope una pila vacia");
+    public void remove() {//O(c)
+        if(isEmpty()) { //O(c)
+            throw new RuntimeException("No se puede obtener el tope una pila vacia");//O(c)
         }
-        count--;
+        count--;//O(c)
     }
 
     @Override
-    public void add(int value) {
-        if(this.count == MAX) {
-            throw new RuntimeException("La pila esta llena");
+    public void add(int value) { //O(c)
+        if(this.count == MAX) { //O(c)
+            throw new RuntimeException("La pila esta llena"); //O(c)
         }
-        this.array[this.count] = value;
-        this.count++;
+        this.array[this.count] = value; //O(c)
+        this.count++; //O(c)
     }
 
     @Override
