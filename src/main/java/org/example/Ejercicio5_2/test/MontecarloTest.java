@@ -1,6 +1,6 @@
-package Ejercicio5_2.test;
-import Ejercicio5_2.Montecarlo;
-import Ejercicio5_2.Coordinate;
+package org.example.Ejercicio5_2.test;
+import org.example.Ejercicio5_2.Montecarlo;
+import org.example.Ejercicio5_2.Coordinate;
 
 import java.util.Random;
 

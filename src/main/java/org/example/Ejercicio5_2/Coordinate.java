@@ -1,4 +1,4 @@
-package Ejercicio5_2;
+package org.example.Ejercicio5_2;
 
 public class Coordinate {
     private final double x;
