@@ -1,0 +1,63 @@
+1 - Calcular la traza:
+
+-) Recorremos QueueOfStacks, accediendo a la pila correspondiente a cada fila O(n), donde n es el número de filas.
+
+-) De cada pila, extraemos el elemento en posición diagonal correspondiente ( O(k), dónde k es el tamaño promedio de las pilas)
+
+Complejidad:
+
+- El acceso a cada fila es O(1) por la cola.
+
+- El acceso al elemento i-ésimo en cada pila es O(i).
+
+- Para una matriz N x N, recorremos n filas y realizamos O(i) operaciones por cada fila i.
+
+Complejidad total: O(1+2+3+....n) = O(n^2)
+
+
+------------------------------------------------------
+
+
+2 - Calculo de traspuesta.
+
+- Determinamos el número máximo de elementos en las pilas O(n)
+
+- Creamos una nueva QueueOfStacks:
+    1 - Para cada columna, recorremos todas las filas y extraemos el elemento correspondiente
+
+Complejidad:
+    Determinar el número máximo de elementos en las pilas O(n)
+
+    Reorganizar los elementos en las pilas nuevas: O(n^2)
+
+Complejidad total: O(n^2)
+
+
+-----------------------------------------------------
+
+
+3 - Sumar dos matrices
+
+- Recorremos ambas QueueOfStacks simultáneamente, (O(n), donde n es el numero de filas)
+
+- Para cada par de pilas, sumamos los elementos correspondientes (O(k), donde k es el tamaño promedio de las pilas).
+
+- Creamos nuevas pilas con los resultados (O(k) por inserción)
+
+Complejidad:
+
+    - Acceso a las filas O(n)
+
+    - Sumar elementos de las pilas: O(n.k) donde k es el tamaño promedio de las pilas.
+
+    Si k = n (pila completa en una matriz cuadrada):
+
+        Complejidad total: O(n^2)
+
+
+----------------------------------------------------
+
+
+Complejidad general del algoritmo: O(n^2)
+
+
